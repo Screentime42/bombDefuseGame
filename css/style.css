@@ -102,6 +102,9 @@ h3 {
 #scorebox {
     display: flex;
     margin-bottom: auto;
+    width: auto;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .column {
@@ -110,4 +113,4 @@ h3 {
 
 #score, #highscore {
     font-size: 4em;
-}
+}   
