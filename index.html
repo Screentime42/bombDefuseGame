@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="./css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Merriweather&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<html>
+    <head>
+        <title>Bomb Defuser</title>
+    </head>
+    <body>
+    
+        <img src="./images/BOMBA.png" class="center" id="logo">
+        <nav>
+
+        </nav>
+
+        <h3 class="center">Cut the correct wire to defuse the bomb!</h3>
+        <div class="dangerwires">
+            <h3 class="dangerwiresin">There are currently:</h3>
+                <h1 id="danger" class="dangerwiresin"></h1>
+            <h3 class="dangerwiresin">DANGER wires</h3>
+        </div>
+
+        <div id="wires" class="wires">
+            <img src="./images/redwire.png"  id="redwire">
+            <img src="./images/greenwire.png" id="greenwire">
+            <img src="./images/bluewire.png" id="bluewire">
+            <img src="./images/yellowwire.png" id="yellowwire">
+        </div>
+
+        <div id="scorebox">
+            <div class="column">
+                <h3 class="center">Your Score:</h3>
+                <span class="center" id="score"></span>
+            </div>
+            <div class="column">
+                <h3 class="center">Your Highest Score:</h3>
+                <span class="center" id="highscore"></span>
+            </div>
+        </div>
+        <script src="./js/script.js"></script>
+    </body>
