@@ -53,16 +53,16 @@ h3 {
     justify-content: center;
     background-image: url("../images/OOAD610.jpg");
     width: 1000px;
-    border: gray, solid;
+    border: 2px gray, solid;
     margin-left: auto;
     margin-right: auto;
-    
+    background-clip: padding-box;
 }
 #wires img {
     display: inline-block;
     margin:25px;
-    border: lightslategrey, solid;
-    border-width: 10px;
+    border: 10px lightslategrey, solid;
+    background-clip: padding-box;
 }
 
 #wires img:hover {
